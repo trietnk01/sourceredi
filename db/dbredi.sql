@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th12 29, 2018 lúc 11:23 AM
+-- Thời gian đã tạo: Th12 30, 2018 lúc 02:05 AM
 -- Phiên bản máy phục vụ: 10.1.36-MariaDB
 -- Phiên bản PHP: 7.2.11
 
@@ -3015,7 +3015,7 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT cho bảng `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2251;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2250;
 
 --
 -- AUTO_INCREMENT cho bảng `wp_postmeta`
