@@ -21,7 +21,7 @@ get_header();
 						<textarea name="message" class="form-control" cols="30" rows="10" placeholder="Nhập nội dung" required=""></textarea>
 					</div>
 					<div class="ck_submit">
-						<a href="javascript:void(0);" onclick="contactNow();">Gửi</a>
+						<a href="javascript:void(0);" onclick="contactNow(this);">Gửi</a>
 						<div class="ajax_loader_contact"></div>
                 		<div class="clr"></div>     
 					</div>
