@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.3
+-- version 4.8.4
 -- https://www.phpmyadmin.net/
 --
--- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th12 31, 2018 lúc 01:41 PM
--- Phiên bản máy phục vụ: 10.1.36-MariaDB
--- Phiên bản PHP: 7.2.11
+-- Host: 127.0.0.1
+-- Generation Time: Jan 10, 2019 at 04:34 PM
+-- Server version: 10.1.37-MariaDB
+-- PHP Version: 7.1.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,13 +19,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Cơ sở dữ liệu: `dbredi`
+-- Database: `dbredi`
 --
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_commentmeta`
+-- Table structure for table `wp_commentmeta`
 --
 
 CREATE TABLE `wp_commentmeta` (
@@ -38,7 +38,7 @@ CREATE TABLE `wp_commentmeta` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_comments`
+-- Table structure for table `wp_comments`
 --
 
 CREATE TABLE `wp_comments` (
@@ -62,7 +62,7 @@ CREATE TABLE `wp_comments` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_es_deliverreport`
+-- Table structure for table `wp_es_deliverreport`
 --
 
 CREATE TABLE `wp_es_deliverreport` (
@@ -78,7 +78,7 @@ CREATE TABLE `wp_es_deliverreport` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_es_deliverreport`
+-- Dumping data for table `wp_es_deliverreport`
 --
 
 INSERT INTO `wp_es_deliverreport` (`es_deliver_id`, `es_deliver_sentguid`, `es_deliver_emailid`, `es_deliver_emailmail`, `es_deliver_sentdate`, `es_deliver_status`, `es_deliver_viewdate`, `es_deliver_sentstatus`, `es_deliver_senttype`) VALUES
@@ -88,7 +88,7 @@ INSERT INTO `wp_es_deliverreport` (`es_deliver_id`, `es_deliver_sentguid`, `es_d
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_es_emaillist`
+-- Table structure for table `wp_es_emaillist`
 --
 
 CREATE TABLE `wp_es_emaillist` (
@@ -103,7 +103,7 @@ CREATE TABLE `wp_es_emaillist` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_es_emaillist`
+-- Dumping data for table `wp_es_emaillist`
 --
 
 INSERT INTO `wp_es_emaillist` (`es_email_id`, `es_email_name`, `es_email_mail`, `es_email_status`, `es_email_created`, `es_email_viewcount`, `es_email_group`, `es_email_guid`) VALUES
@@ -112,7 +112,7 @@ INSERT INTO `wp_es_emaillist` (`es_email_id`, `es_email_name`, `es_email_mail`, 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_es_notification`
+-- Table structure for table `wp_es_notification`
 --
 
 CREATE TABLE `wp_es_notification` (
@@ -126,7 +126,7 @@ CREATE TABLE `wp_es_notification` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_es_sentdetails`
+-- Table structure for table `wp_es_sentdetails`
 --
 
 CREATE TABLE `wp_es_sentdetails` (
@@ -144,7 +144,7 @@ CREATE TABLE `wp_es_sentdetails` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_es_sentdetails`
+-- Dumping data for table `wp_es_sentdetails`
 --
 
 INSERT INTO `wp_es_sentdetails` (`es_sent_id`, `es_sent_guid`, `es_sent_qstring`, `es_sent_source`, `es_sent_starttime`, `es_sent_endtime`, `es_sent_count`, `es_sent_preview`, `es_sent_status`, `es_sent_type`, `es_sent_subject`) VALUES
@@ -154,7 +154,7 @@ INSERT INTO `wp_es_sentdetails` (`es_sent_id`, `es_sent_guid`, `es_sent_qstring`
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_es_subscriber_ips`
+-- Table structure for table `wp_es_subscriber_ips`
 --
 
 CREATE TABLE `wp_es_subscriber_ips` (
@@ -165,7 +165,7 @@ CREATE TABLE `wp_es_subscriber_ips` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_links`
+-- Table structure for table `wp_links`
 --
 
 CREATE TABLE `wp_links` (
@@ -187,7 +187,7 @@ CREATE TABLE `wp_links` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_options`
+-- Table structure for table `wp_options`
 --
 
 CREATE TABLE `wp_options` (
@@ -198,7 +198,7 @@ CREATE TABLE `wp_options` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_options`
+-- Dumping data for table `wp_options`
 --
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
@@ -802,7 +802,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_postmeta`
+-- Table structure for table `wp_postmeta`
 --
 
 CREATE TABLE `wp_postmeta` (
@@ -813,7 +813,7 @@ CREATE TABLE `wp_postmeta` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_postmeta`
+-- Dumping data for table `wp_postmeta`
 --
 
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
@@ -1476,7 +1476,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_posts`
+-- Table structure for table `wp_posts`
 --
 
 CREATE TABLE `wp_posts` (
@@ -1506,7 +1506,7 @@ CREATE TABLE `wp_posts` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_posts`
+-- Dumping data for table `wp_posts`
 --
 
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
@@ -1683,7 +1683,7 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_termmeta`
+-- Table structure for table `wp_termmeta`
 --
 
 CREATE TABLE `wp_termmeta` (
@@ -1696,7 +1696,7 @@ CREATE TABLE `wp_termmeta` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_terms`
+-- Table structure for table `wp_terms`
 --
 
 CREATE TABLE `wp_terms` (
@@ -1707,7 +1707,7 @@ CREATE TABLE `wp_terms` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_terms`
+-- Dumping data for table `wp_terms`
 --
 
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
@@ -1743,7 +1743,7 @@ INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_term_relationships`
+-- Table structure for table `wp_term_relationships`
 --
 
 CREATE TABLE `wp_term_relationships` (
@@ -1753,7 +1753,7 @@ CREATE TABLE `wp_term_relationships` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_term_relationships`
+-- Dumping data for table `wp_term_relationships`
 --
 
 INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_order`) VALUES
@@ -1828,7 +1828,7 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_term_taxonomy`
+-- Table structure for table `wp_term_taxonomy`
 --
 
 CREATE TABLE `wp_term_taxonomy` (
@@ -1841,7 +1841,7 @@ CREATE TABLE `wp_term_taxonomy` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_term_taxonomy`
+-- Dumping data for table `wp_term_taxonomy`
 --
 
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
@@ -1877,7 +1877,7 @@ INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `desc
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_usermeta`
+-- Table structure for table `wp_usermeta`
 --
 
 CREATE TABLE `wp_usermeta` (
@@ -1888,7 +1888,7 @@ CREATE TABLE `wp_usermeta` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_usermeta`
+-- Dumping data for table `wp_usermeta`
 --
 
 INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALUES
@@ -1943,7 +1943,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_users`
+-- Table structure for table `wp_users`
 --
 
 CREATE TABLE `wp_users` (
@@ -1960,7 +1960,7 @@ CREATE TABLE `wp_users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_users`
+-- Dumping data for table `wp_users`
 --
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
@@ -1969,7 +1969,7 @@ INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_yoast_seo_links`
+-- Table structure for table `wp_yoast_seo_links`
 --
 
 CREATE TABLE `wp_yoast_seo_links` (
@@ -1983,7 +1983,7 @@ CREATE TABLE `wp_yoast_seo_links` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `wp_yoast_seo_meta`
+-- Table structure for table `wp_yoast_seo_meta`
 --
 
 CREATE TABLE `wp_yoast_seo_meta` (
@@ -1993,7 +1993,7 @@ CREATE TABLE `wp_yoast_seo_meta` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `wp_yoast_seo_meta`
+-- Dumping data for table `wp_yoast_seo_meta`
 --
 
 INSERT INTO `wp_yoast_seo_meta` (`object_id`, `internal_link_count`, `incoming_link_count`) VALUES
@@ -2796,11 +2796,11 @@ INSERT INTO `wp_yoast_seo_meta` (`object_id`, `internal_link_count`, `incoming_l
 (899, 0, 0);
 
 --
--- Chỉ mục cho các bảng đã đổ
+-- Indexes for dumped tables
 --
 
 --
--- Chỉ mục cho bảng `wp_commentmeta`
+-- Indexes for table `wp_commentmeta`
 --
 ALTER TABLE `wp_commentmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -2808,7 +2808,7 @@ ALTER TABLE `wp_commentmeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Chỉ mục cho bảng `wp_comments`
+-- Indexes for table `wp_comments`
 --
 ALTER TABLE `wp_comments`
   ADD PRIMARY KEY (`comment_ID`),
@@ -2819,52 +2819,52 @@ ALTER TABLE `wp_comments`
   ADD KEY `comment_author_email` (`comment_author_email`(10));
 
 --
--- Chỉ mục cho bảng `wp_es_deliverreport`
+-- Indexes for table `wp_es_deliverreport`
 --
 ALTER TABLE `wp_es_deliverreport`
   ADD PRIMARY KEY (`es_deliver_id`);
 
 --
--- Chỉ mục cho bảng `wp_es_emaillist`
+-- Indexes for table `wp_es_emaillist`
 --
 ALTER TABLE `wp_es_emaillist`
   ADD PRIMARY KEY (`es_email_id`);
 
 --
--- Chỉ mục cho bảng `wp_es_notification`
+-- Indexes for table `wp_es_notification`
 --
 ALTER TABLE `wp_es_notification`
   ADD PRIMARY KEY (`es_note_id`);
 
 --
--- Chỉ mục cho bảng `wp_es_sentdetails`
+-- Indexes for table `wp_es_sentdetails`
 --
 ALTER TABLE `wp_es_sentdetails`
   ADD PRIMARY KEY (`es_sent_id`);
 
 --
--- Chỉ mục cho bảng `wp_es_subscriber_ips`
+-- Indexes for table `wp_es_subscriber_ips`
 --
 ALTER TABLE `wp_es_subscriber_ips`
   ADD PRIMARY KEY (`created_on`,`ip`),
   ADD KEY `ip` (`ip`);
 
 --
--- Chỉ mục cho bảng `wp_links`
+-- Indexes for table `wp_links`
 --
 ALTER TABLE `wp_links`
   ADD PRIMARY KEY (`link_id`),
   ADD KEY `link_visible` (`link_visible`);
 
 --
--- Chỉ mục cho bảng `wp_options`
+-- Indexes for table `wp_options`
 --
 ALTER TABLE `wp_options`
   ADD PRIMARY KEY (`option_id`),
   ADD UNIQUE KEY `option_name` (`option_name`);
 
 --
--- Chỉ mục cho bảng `wp_postmeta`
+-- Indexes for table `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -2872,7 +2872,7 @@ ALTER TABLE `wp_postmeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Chỉ mục cho bảng `wp_posts`
+-- Indexes for table `wp_posts`
 --
 ALTER TABLE `wp_posts`
   ADD PRIMARY KEY (`ID`),
@@ -2882,7 +2882,7 @@ ALTER TABLE `wp_posts`
   ADD KEY `post_author` (`post_author`);
 
 --
--- Chỉ mục cho bảng `wp_termmeta`
+-- Indexes for table `wp_termmeta`
 --
 ALTER TABLE `wp_termmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -2890,7 +2890,7 @@ ALTER TABLE `wp_termmeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Chỉ mục cho bảng `wp_terms`
+-- Indexes for table `wp_terms`
 --
 ALTER TABLE `wp_terms`
   ADD PRIMARY KEY (`term_id`),
@@ -2898,14 +2898,14 @@ ALTER TABLE `wp_terms`
   ADD KEY `name` (`name`(191));
 
 --
--- Chỉ mục cho bảng `wp_term_relationships`
+-- Indexes for table `wp_term_relationships`
 --
 ALTER TABLE `wp_term_relationships`
   ADD PRIMARY KEY (`object_id`,`term_taxonomy_id`),
   ADD KEY `term_taxonomy_id` (`term_taxonomy_id`);
 
 --
--- Chỉ mục cho bảng `wp_term_taxonomy`
+-- Indexes for table `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
   ADD PRIMARY KEY (`term_taxonomy_id`),
@@ -2913,7 +2913,7 @@ ALTER TABLE `wp_term_taxonomy`
   ADD KEY `taxonomy` (`taxonomy`);
 
 --
--- Chỉ mục cho bảng `wp_usermeta`
+-- Indexes for table `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
   ADD PRIMARY KEY (`umeta_id`),
@@ -2921,7 +2921,7 @@ ALTER TABLE `wp_usermeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Chỉ mục cho bảng `wp_users`
+-- Indexes for table `wp_users`
 --
 ALTER TABLE `wp_users`
   ADD PRIMARY KEY (`ID`),
@@ -2930,114 +2930,114 @@ ALTER TABLE `wp_users`
   ADD KEY `user_email` (`user_email`);
 
 --
--- Chỉ mục cho bảng `wp_yoast_seo_links`
+-- Indexes for table `wp_yoast_seo_links`
 --
 ALTER TABLE `wp_yoast_seo_links`
   ADD PRIMARY KEY (`id`),
   ADD KEY `link_direction` (`post_id`,`type`);
 
 --
--- Chỉ mục cho bảng `wp_yoast_seo_meta`
+-- Indexes for table `wp_yoast_seo_meta`
 --
 ALTER TABLE `wp_yoast_seo_meta`
   ADD UNIQUE KEY `object_id` (`object_id`);
 
 --
--- AUTO_INCREMENT cho các bảng đã đổ
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT cho bảng `wp_commentmeta`
+-- AUTO_INCREMENT for table `wp_commentmeta`
 --
 ALTER TABLE `wp_commentmeta`
   MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_comments`
+-- AUTO_INCREMENT for table `wp_comments`
 --
 ALTER TABLE `wp_comments`
   MODIFY `comment_ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_es_deliverreport`
+-- AUTO_INCREMENT for table `wp_es_deliverreport`
 --
 ALTER TABLE `wp_es_deliverreport`
   MODIFY `es_deliver_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- AUTO_INCREMENT cho bảng `wp_es_emaillist`
+-- AUTO_INCREMENT for table `wp_es_emaillist`
 --
 ALTER TABLE `wp_es_emaillist`
   MODIFY `es_email_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT cho bảng `wp_es_notification`
+-- AUTO_INCREMENT for table `wp_es_notification`
 --
 ALTER TABLE `wp_es_notification`
   MODIFY `es_note_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_es_sentdetails`
+-- AUTO_INCREMENT for table `wp_es_sentdetails`
 --
 ALTER TABLE `wp_es_sentdetails`
   MODIFY `es_sent_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- AUTO_INCREMENT cho bảng `wp_links`
+-- AUTO_INCREMENT for table `wp_links`
 --
 ALTER TABLE `wp_links`
   MODIFY `link_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_options`
+-- AUTO_INCREMENT for table `wp_options`
 --
 ALTER TABLE `wp_options`
   MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2262;
 
 --
--- AUTO_INCREMENT cho bảng `wp_postmeta`
+-- AUTO_INCREMENT for table `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
   MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3699;
 
 --
--- AUTO_INCREMENT cho bảng `wp_posts`
+-- AUTO_INCREMENT for table `wp_posts`
 --
 ALTER TABLE `wp_posts`
   MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=901;
 
 --
--- AUTO_INCREMENT cho bảng `wp_termmeta`
+-- AUTO_INCREMENT for table `wp_termmeta`
 --
 ALTER TABLE `wp_termmeta`
   MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `wp_terms`
+-- AUTO_INCREMENT for table `wp_terms`
 --
 ALTER TABLE `wp_terms`
   MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
--- AUTO_INCREMENT cho bảng `wp_term_taxonomy`
+-- AUTO_INCREMENT for table `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
   MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
--- AUTO_INCREMENT cho bảng `wp_usermeta`
+-- AUTO_INCREMENT for table `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
   MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
 
 --
--- AUTO_INCREMENT cho bảng `wp_users`
+-- AUTO_INCREMENT for table `wp_users`
 --
 ALTER TABLE `wp_users`
   MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT cho bảng `wp_yoast_seo_links`
+-- AUTO_INCREMENT for table `wp_yoast_seo_links`
 --
 ALTER TABLE `wp_yoast_seo_links`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
