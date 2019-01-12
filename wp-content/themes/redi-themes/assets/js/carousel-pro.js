@@ -1,5 +1,5 @@
 jQuery(document).ready(function(){    
-    jQuery(".owl_carousel_banner").owlCarousel({
+    jQuery(".owl-carousel-banner").owlCarousel({
         autoplay:false,                    
         loop:true,
         margin:0,                        
