@@ -897,7 +897,7 @@ function script_footer(){
 	";
 	$google='
 
-<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script src="'.P_ASSETS.'/js/platform.js" async defer></script>
 
 	';
 	$pan_search="
